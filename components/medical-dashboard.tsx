@@ -181,24 +181,6 @@ export function MedicalDashboard() {
 
   return (
     <main className="dashboard-shell">
-      <header className="topbar">
-        <div className="brand-block">
-          <div className="brand-mark"><Pulse size={26} weight="bold" /></div>
-          <div>
-            <div className="brand-name">MEDIGRAPH</div>
-            <p>医疗知识关联分析平台</p>
-          </div>
-        </div>
-        <div className="topbar-center" aria-label="演示数据状态">
-          <span><i className="status-dot" /> 知识库运行正常</span>
-          <span className="topbar-divider" />
-          <span>INTERVIEW DEMO · MOCK DATA</span>
-        </div>
-        <div className="time-block">
-          <strong>{clock}</strong>
-          <span>{dateLabel}</span>
-        </div>
-      </header>
 
       <section className="hero-row">
         <div>
